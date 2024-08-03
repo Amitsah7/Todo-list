@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-Do Maestro <img src="icon.jpg" alt="to-do-icon" /></h2>
+        <p>Elevate your everyday</p>
+        <div class="row">
+          <input text="text" id="input-box" placeholder="Add your tasks" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">TASK1</li>
+          <li>TASK2</li>
+          <li>TASK3</li> -->
+        </ul>
+        <div id="progress-container">
+          <p>Achievement: <span id="progress">0%</span></p>
+          <div id="progress-bar"><div id="progress-fill"></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
